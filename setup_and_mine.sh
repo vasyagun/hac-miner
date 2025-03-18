@@ -2,7 +2,7 @@
 
 # 1. Установка зависимостей
 echo "Обновление системы и установка зависимостей..."
-sudo apt-get update && sudo apt-get install -y \
+apt-get update && apt-get install -y \
     build-essential \
     autoconf \
     libtool \
@@ -16,7 +16,7 @@ sudo apt-get update && sudo apt-get install -y \
 # 2. Скачивание и распаковка майнера
 echo "Скачивание майнера..."
 cd /root
-wget -O hacash_miner.zip "https://github.com/vasyagun/gpool/releases/download/hac-miner/HAC_GPU_Miner.for.ubuntu24.04.0313.zip"
+wget -O hacash_miner.zip "https://github.com/vasyagun/hac-miner/releases/download/hac-miner/HAC_GPU_Miner.for.ubuntu24.04.0313.zip"
 unzip -o hacash_miner.zip -d hacash_miner
 cd hacash_miner
 
