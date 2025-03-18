@@ -11,7 +11,8 @@ apt-get update && apt-get install -y \
     libssl-dev \
     libgmp-dev \
     libudev-dev \
-    libusb-1.0-0-dev
+    libusb-1.0-0-dev \
+    unzip
 
 # 2. Скачивание и распаковка майнера
 echo "Скачивание майнера..."
